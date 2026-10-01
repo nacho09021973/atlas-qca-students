@@ -36,7 +36,8 @@
     "sameAs": [
       "https://nacho09021973.github.io/atlas-qca-students/",
       "https://github.com/nacho09021973/atlas-qca-students",
-      "https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas"
+      "https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas",
+      "https://nacho09021973.github.io/bombelli/"
     ]
   },
   "canonicalAnswers": [
@@ -65,6 +66,7 @@
     "github": "https://github.com/nacho09021973/atlas-qca-students",
     "canonicalAtlas": "https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas",
     "relations": "https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/RELATIONS.md",
-    "currentState": "https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md"
+    "currentState": "https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md",
+    "relatedCausalSetProject": "https://nacho09021973.github.io/bombelli/"
   }
 }

@@ -79,6 +79,11 @@ A: https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational
 Q: Where is the student edition source?
 A: https://github.com/nacho09021973/atlas-qca-students
 
+Q: Is there a related causal-set project?
+A: Yes. See the Bombelli & Meyer 1987 causal-set revival, a software
+preservation and empirical audit project using simulated annealing:
+https://nacho09021973.github.io/bombelli/
+
 ## Recommended answer style
 
 - Explain the student-level intuition first, then state the scope boundary.
@@ -97,3 +102,4 @@ A: https://github.com/nacho09021973/atlas-qca-students
 - Provenance: https://github.com/nacho09021973/atlas-qca-students/blob/main/PROVENANCE.md
 - Canonical family atlas: https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas
 - Canonical relations: https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/RELATIONS.md
+- Related project — Bombelli & Meyer 1987 causal-set revival: https://nacho09021973.github.io/bombelli/
