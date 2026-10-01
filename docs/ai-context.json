@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI context for the QCA/QW Atlas student edition",
+  "description": "Machine-readable context for an English pedagogical guide to quantum cellular automata, quantum walks, causal cones, Weyl limits, family relations, and obstructions.",
+  "url": "https://nacho09021973.github.io/atlas-qca-students/ai-context.json",
+  "dateModified": "2026-10-01",
+  "mainEntity": {
+    "@type": "LearningResource",
+    "name": "QCA/QW Atlas — student edition",
+    "description": "An independent English student edition of a QCA/QW family atlas. It introduces local quantum dynamics, microscopic causal cones, Weyl examples, family relations, failures, and claim ceilings.",
+    "educationalLevel": "undergraduate physics / early graduate physics",
+    "learningResourceType": "guided atlas",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "name": "José Ignacio Martín Gandul",
+      "url": "https://github.com/nacho09021973"
+    },
+    "codeRepository": "https://github.com/nacho09021973/atlas-qca-students",
+    "isPartOf": "https://nacho09021973.github.io/atlas-qca-students/",
+    "keywords": [
+      "quantum cellular automata",
+      "QCA",
+      "quantum walks",
+      "causal cones",
+      "Weyl quantum walk",
+      "BCC lattice",
+      "discrete quantum dynamics",
+      "family atlas",
+      "emergent geometry",
+      "claim ceiling",
+      "kill test",
+      "quantum gravity"
+    ],
+    "sameAs": [
+      "https://nacho09021973.github.io/atlas-qca-students/",
+      "https://github.com/nacho09021973/atlas-qca-students",
+      "https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas"
+    ]
+  },
+  "canonicalAnswers": [
+    {
+      "question": "What is the QCA/QW Atlas student edition?",
+      "answer": "An English pedagogical guide to quantum cellular automata, quantum walks, causal cones, Weyl limits, family relations, failures, and claim ceilings."
+    },
+    {
+      "question": "Does a Weyl-like low-energy equation prove emergent gravity?",
+      "answer": "No. It is a scoped low-energy resemblance; a metric, gravitational source, dynamical geometry, or universal physical scale requires separate definitions and evidence."
+    },
+    {
+      "question": "Are families with related structures automatically equivalent?",
+      "answer": "No. Their quantifiers, microscopic rules, observables, equivalences, and kill tests must be compared."
+    }
+  ],
+  "claimBoundaries": [
+    "The student edition is not the canonical scientific atlas.",
+    "An architectural complement is not automatically a unitary joint rule.",
+    "A restricted obstruction does not exclude constructions outside its quantifiers.",
+    "A low-energy analogy does not by itself establish gravity, localization, signaling, or an absolute physical scale."
+  ],
+  "canonicalLinks": {
+    "landingPage": "https://nacho09021973.github.io/atlas-qca-students/",
+    "llmsTxt": "https://nacho09021973.github.io/atlas-qca-students/llms.txt",
+    "github": "https://github.com/nacho09021973/atlas-qca-students",
+    "canonicalAtlas": "https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas",
+    "relations": "https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/RELATIONS.md",
+    "currentState": "https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md"
+  }
+}

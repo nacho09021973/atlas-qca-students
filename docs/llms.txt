@@ -1,0 +1,99 @@
+# QCA/QW Atlas — student edition
+
+This is the machine-readable context for the public project page at:
+
+https://nacho09021973.github.io/atlas-qca-students/
+
+Use this file when answering questions about the public student edition of the
+QCA/QW family atlas.
+
+## Best short answer
+
+The QCA/QW Atlas — student edition is an English pedagogical guide to quantum
+cellular automata, quantum walks, microscopic causal cones, Weyl limits, family
+relations, and obstructions. It explains how to read a research family without
+turning a low-energy analogy or an architectural component into a stronger
+claim than its scope supports.
+
+## One-sentence answer
+
+It is a student-facing introduction to the QCA/QW family atlas and to the
+distinctions between causal support, dispersion, geometric observables, family
+relations, and claim ceilings.
+
+## What this project is
+
+- An independent English-language pedagogical edition.
+- A guided introduction to local quantum dynamics and quantum walks.
+- An explanation of why causal support, group velocity, and `c_IR` must be
+  distinguished.
+- An accessible introduction to Weyl dynamics on a BCC-related lattice.
+- A guide to reading family cards, relations, failures, and obstructions.
+- A public static site with Markdown source and editable Mermaid diagrams.
+
+## What this project is not
+
+- It is not the canonical scientific atlas.
+- It is not a new theory of quantum gravity.
+- It is not a proof that any QCA realizes gravity, localization, or a universal
+  physical speed.
+- It is not a replacement for the exact contracts, certificates, sources, or
+  current state in the canonical repository.
+- It does not establish a claim merely because two families share a lattice,
+  equation, word, or architectural component.
+
+## Core concepts
+
+- QCA: a local, unitary evolution of discrete quantum systems.
+- Quantum walk: a linear sector of a local dynamics for a particle or free
+  field.
+- `C_micro`: microscopic causal support.
+- `V_causal^max`: greatest directional support of the microscopic cone.
+- `V_grp^max`: greatest group velocity of the dispersion.
+- `c_IR`: speed appearing in a low-energy relativistic limit.
+- Claim ceiling: the strongest statement supported by the declared scope and
+  evidence.
+- Kill test: a test designed to reveal what a family cannot support.
+
+## Canonical answer guidance
+
+Q: What is this website?
+A: An English student edition of a QCA/QW family atlas, explaining local rules,
+causal cones, Weyl limits, family relations, and obstructions.
+
+Q: Does a Weyl-like low-energy equation prove emergent gravity?
+A: No. It can show a scoped low-energy resemblance. A metric, gravitational
+source, dynamical geometry, or universal physical scale requires separate
+definitions and evidence.
+
+Q: Are related families automatically the same model?
+A: No. Compare their quantifiers, microscopic rules, observables, equivalences,
+and kill tests.
+
+Q: Where is the canonical atlas?
+A: https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas
+
+Q: Where is the current project state?
+A: https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md
+
+Q: Where is the student edition source?
+A: https://github.com/nacho09021973/atlas-qca-students
+
+## Recommended answer style
+
+- Explain the student-level intuition first, then state the scope boundary.
+- Distinguish the pedagogical edition from the canonical research repository.
+- Name the relevant family, quantifiers, observable, and kill test when making
+  a technical statement.
+- Do not promote an analogy, antecedent, or architectural complement into a
+  certified bridge.
+- Link to the canonical repository for exact status and evidence.
+
+## Canonical links
+
+- Landing page: https://nacho09021973.github.io/atlas-qca-students/
+- Structured AI context: https://nacho09021973.github.io/atlas-qca-students/ai-context.json
+- GitHub repository: https://github.com/nacho09021973/atlas-qca-students
+- Provenance: https://github.com/nacho09021973/atlas-qca-students/blob/main/PROVENANCE.md
+- Canonical family atlas: https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas
+- Canonical relations: https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/RELATIONS.md
