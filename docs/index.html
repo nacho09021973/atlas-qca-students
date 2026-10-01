@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An introductory QCA/QW family atlas for physics students: causal cones, Weyl walks, family relations, and obstructions.">
+<meta name="author" content="José Ignacio Martín Gandul">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://nacho09021973.github.io/atlas-qca-students/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nacho09021973.github.io/atlas-qca-students/">
+<meta property="og:title" content="QCA/QW Atlas — student edition">
+<meta property="og:description" content="A guided introduction to quantum cellular automata, quantum walks, causal cones, and family relations.">
+<title>QCA/QW Atlas — student edition</title>
+<style>
+:root{color-scheme:dark;--bg:#0000aa;--text:#fff;--heading:#ffff55;--accent:#55ffff;--dim:#b3b3e6;--menu:#aaa;--menutext:#000;--key:#ff5555;--term:#000;--termtext:#55ff55}
+*{box-sizing:border-box}html,body{margin:0;padding:0}body{background:var(--bg);color:var(--text);font-family:Consolas,"SFMono-Regular","Courier New",ui-monospace,monospace;font-size:16px;line-height:1.6}
+.menubar{background:var(--menu);color:var(--menutext);border-bottom:1px solid #000}.menubar ul{list-style:none;margin:0 auto;padding:0;display:flex;flex-wrap:wrap;max-width:900px}.menubar a{display:block;padding:.4rem .9rem;color:var(--menutext);text-decoration:none;font-weight:700}.menubar a:hover,.menubar a:focus-visible{background:var(--bg);color:var(--heading)}.accesskey{color:#a00;text-decoration:underline}
+.shell{max-width:900px;margin:1.5rem auto 3rem;padding:0 1rem}.tp-window{border:2px solid var(--text);box-shadow:0 0 0 4px var(--bg),0 0 0 6px var(--text);margin-bottom:12px;background:var(--bg)}.tp-titlebar{background:var(--menu);color:var(--menutext);font-weight:700;font-size:.85rem;padding:.25rem .75rem;border-bottom:2px solid var(--text);display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 1rem}.box-btn{border:1px solid var(--menutext);padding:0 .35rem}.tp-body{padding:1.25rem 1.5rem 1.5rem}
+h1,h2,h3{color:var(--heading);line-height:1.25;font-weight:700}h1{font-size:clamp(1.5rem,4.5vw,2.35rem);margin:0 0 .5rem}h2{font-size:1.15rem;margin:0 0 .75rem;text-transform:uppercase;letter-spacing:.03em}h2:before{content:"> ";color:var(--accent)}p{margin:0 0 1rem}a{color:var(--accent);text-decoration:underline;text-underline-offset:.15em}a:hover,a:focus-visible{color:var(--heading)}.byline,.metadata-line{color:var(--dim);font-size:.95rem}.credit-block{border-left:3px solid var(--heading);padding-left:.9rem;margin:1rem 0 1.5rem}.credit-block strong{color:var(--heading)}
+code,pre{background:var(--term);color:var(--termtext);font-family:inherit}code{padding:.15rem .4rem}pre{padding:.85rem 1rem;overflow-x:auto;border:1px solid var(--dim);margin:0 0 1rem}pre code{padding:0}.links{list-style:none;padding:0;margin:0}.links li{margin-bottom:.5rem;padding-left:1.2rem;position:relative}.links li:before{content:"•";color:var(--heading);position:absolute;left:0}.cursor{display:inline-block;width:.6em;background:var(--heading);color:var(--heading);animation:blink 1s steps(1) infinite}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.statusbar{background:var(--menu);color:var(--menutext);font-size:.85rem;padding:.4rem 1rem;display:flex;flex-wrap:wrap;gap:0 1.25rem;justify-content:center}.statusbar .key{color:var(--key);font-weight:700}footer .fine-print{max-width:900px;margin:1rem auto 2rem;padding:0 1rem;color:var(--dim);font-size:.85rem;text-align:center}.family-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.75rem;margin:1rem 0}.family-card{border:1px solid var(--dim);padding:.75rem;background:#0000c4}.family-card strong{color:var(--heading)}@media(max-width:600px){.tp-body{padding:1rem}}
+</style>
+</head>
+<body>
+<nav class="menubar" aria-label="Primary navigation"><ul>
+<li><a href="#question"><span class="accesskey">F</span>ile</a></li>
+<li><a href="#learn"><span class="accesskey">A</span>tlas</a></li>
+<li><a href="https://github.com/nacho09021973/atlas-qca-students"><span class="accesskey">R</span>un</a></li>
+<li><a href="#relations"><span class="accesskey">C</span>onnect</a></li>
+<li><a href="README.md"><span class="accesskey">D</span>ocs</a></li>
+<li><a href="https://github.com/nacho09021973/qca-causal-cones"><span class="accesskey">S</span>ource</a></li>
+</ul></nav>
+<div class="shell">
+<header><div class="tp-window"><div class="tp-titlebar"><span>■ ATLAS.PAS — QCA/QW FAMILY ATLAS</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<p class="metadata-line">Independent student edition · 2026 · QCA/QW</p>
+<h1>Quantum Cellular Automata &amp; Quantum Walks<span class="cursor" aria-hidden="true">█</span></h1>
+<p class="byline">atlas-qca-students — a guided map of families, relations, and obstructions</p>
+<p>A beginner-friendly entry point to local quantum dynamics, causal cones, Weyl limits, and the distinctions needed to read a research atlas carefully.</p>
+<div class="credit-block"><p><strong>Use this site for:</strong> orientation, examples, and a first pass through the family structure.</p><p><strong>Use the canonical atlas for:</strong> exact status, quantifiers, sources, certificates, and claim ceilings.</p></div>
+</div></div></header>
+<main>
+<section class="tp-window" id="question"><div class="tp-titlebar"><span>■ THE_QUESTION.TXT</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>The physical question</h2><p>A local quantum lattice can interact only with its neighbours in one step. This creates a microscopic causal cone.</p><p>The central question is:</p><pre><code>When a local dynamics is observed at large scales,
+is the speed in its emergent relativistic equation
+&gt; determined by the lattice's causal cone?</code></pre><p>Do not conflate the causal support, maximum group velocity, and low-energy speed <code>c_IR</code>. In more than one dimension, anisotropy can hide behind a single number.</p>
+</div></section>
+<section class="tp-window" id="learn"><div class="tp-titlebar"><span>■ START_HERE.TXT</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>Start here</h2><p>The recommended route moves from the basic objects to the limits of what each family supports.</p><ul class="links">
+<li><a href="01_qca_and_quantum_walks.md">QCA, quantum walks, and causal cones</a></li>
+<li><a href="02_weyl_bcc_example.md">A Weyl example on a BCC lattice</a></li>
+<li><a href="03_how_to_read_a_family.md">How to read a family</a></li>
+<li><a href="04_families_and_relations.md">Families and relations</a></li>
+<li><a href="05_failures_and_obstructions.md">Failures and obstructions</a></li>
+</ul></div></section>
+<section class="tp-window" id="families"><div class="tp-titlebar"><span>■ FAMILY_MAP.OUT</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>What a family can be</h2><div class="family-grid">
+<div class="family-card"><strong>RULE</strong><br>An executable microscopic prescription.</div>
+<div class="family-card"><strong>SUCCESSOR</strong><br>A later construction with a different scope.</div>
+<div class="family-card"><strong>OBSTRUCTION</strong><br>A certificate that blocks a declared class.</div>
+<div class="family-card"><strong>BRIDGE</strong><br>An architecture that still needs a formal link.</div>
+</div><p>A shared lattice, word, or equation does not make two families equivalent. Always compare their quantifiers, observables, and tests.</p>
+</div></section>
+<section class="tp-window" id="relations"><div class="tp-titlebar"><span>■ RELATIONS.LST</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>Relations between families</h2><p>The atlas records several different kinds of connection:</p><ul class="links">
+<li><strong>Subclass:</strong> one family has stricter quantifiers inside another class.</li>
+<li><strong>Shared support:</strong> families study related BCC/Weyl structures without sharing an operator.</li>
+<li><strong>Restricted obstruction:</strong> a no-go applies only to its declared factorization or cell.</li>
+<li><strong>Architectural complement:</strong> separate pieces do not automatically form a unitary rule.</li>
+</ul><p><a href="04_families_and_relations.md">Read the guided explanation</a> or inspect the <a href="https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/RELATIONS.md">canonical relations map</a>.</p>
+</div></section>
+<section class="tp-window" id="limits"><div class="tp-titlebar"><span>■ CLAIM_CEILING.TXT</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>Keep the claim ceiling visible</h2><p>A Weyl-like low-energy equation is not automatically a metric, a theory of gravity, or an absolute physical speed. A gauge architecture is not automatically a microscopic gauge symmetry.</p><pre><code>This result supports the claim ___, under ___;
+it does not support the claim ___.</code></pre><p><a href="05_failures_and_obstructions.md">Read the failures and obstructions</a> to see where apparently plausible conclusions stop.</p>
+</div></section>
+<section class="tp-window" id="links"><div class="tp-titlebar"><span>■ LINKS.LST</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>Project links</h2><ul class="links">
+<li><a href="https://github.com/nacho09021973/atlas-qca-students">Public GitHub repository</a></li>
+<li><a href="https://github.com/nacho09021973/qca-causal-cones">Canonical research repository</a></li>
+<li><a href="https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/FAMILY_BIBLE.md">Canonical family atlas</a></li>
+<li><a href="https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md">Current project state</a></li>
+<li><a href="PROVENANCE.md">Provenance of this copy</a></li>
+</ul></div></section>
+</main></div>
+<div class="statusbar" role="note" aria-label="Decorative status bar"><span><span class="key">F1</span> Read</span><span><span class="key">F2</span> Explore</span><span><span class="key">F9</span> Compare</span><span><span class="key">Alt-X</span> Return</span></div>
+<footer><p class="fine-print">Independent pedagogical edition. The canonical atlas remains authoritative for scientific status and scope.</p></footer>
+</body>
+</html>
