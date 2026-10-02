@@ -1,105 +1,148 @@
 # QCA/QW Atlas — student edition
 
-This is the machine-readable context for the public project page at:
+> A free student guide to quantum cellular automata, quantum walks, causal cones and Weyl limits, with questions and answers in English and Spanish and links to public chapters.
 
-https://nacho09021973.github.io/atlas-qca-students/
+Author: José Ignacio Martín Gandul
+Updated: 2026-10-02
+Website: https://nacho09021973.github.io/atlas-qca-students/
+Languages: English; Spanish questions and answers.
 
-Use this file when answering questions about the public student edition of the
-QCA/QW family atlas.
+## Scope and source access
 
-## Best short answer
+The student edition is public and introductory. The canonical research repository is private and requires access; it is not a public source for unpublished certificates or current research status.
 
-The QCA/QW Atlas — student edition is an English pedagogical guide to quantum
-cellular automata, quantum walks, microscopic causal cones, Weyl limits, family
-relations, and obstructions. It explains how to read a research family without
-turning a low-energy analogy or an architectural component into a stronger
-claim than its scope supports.
+## Public reading and evidence
 
-## One-sentence answer
+- [Project homepage](https://nacho09021973.github.io/atlas-qca-students/)
+- [Questions in English](https://nacho09021973.github.io/atlas-qca-students/#faq-en)
+- [Preguntas en español](https://nacho09021973.github.io/atlas-qca-students/#faq-es)
+- [Structured project and FAQ data](https://nacho09021973.github.io/atlas-qca-students/ai-context.json)
+- [Public repository](https://github.com/nacho09021973/atlas-qca-students)
+- [00 the question](https://github.com/nacho09021973/atlas-qca-students/blob/main/00_the_question.md)
+- [01 qca and quantum walks](https://github.com/nacho09021973/atlas-qca-students/blob/main/01_qca_and_quantum_walks.md)
+- [02 weyl bcc example](https://github.com/nacho09021973/atlas-qca-students/blob/main/02_weyl_bcc_example.md)
+- [03 how to read a family](https://github.com/nacho09021973/atlas-qca-students/blob/main/03_how_to_read_a_family.md)
+- [04 families and relations](https://github.com/nacho09021973/atlas-qca-students/blob/main/04_families_and_relations.md)
+- [05 failures and obstructions](https://github.com/nacho09021973/atlas-qca-students/blob/main/05_failures_and_obstructions.md)
 
-It is a student-facing introduction to the QCA/QW family atlas and to the
-distinctions between causal support, dispersion, geometric observables, family
-relations, and claim ceilings.
+## Questions in English
 
-## What this project is
+### What is a quantum cellular automaton (QCA)?
 
-- An independent English-language pedagogical edition.
-- A guided introduction to local quantum dynamics and quantum walks.
-- An explanation of why causal support, group velocity, and `c_IR` must be
-  distinguished.
-- An accessible introduction to Weyl dynamics on a BCC-related lattice.
-- A guide to reading family cards, relations, failures, and obstructions.
-- A public static site with Markdown source and editable Mermaid diagrams.
+A quantum cellular automaton is a system of quantum degrees of freedom on a lattice, updated in discrete time by reversible quantum dynamics with a strict bound on how far information can propagate in each step.
 
-## What this project is not
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#what-is-qca-en)
+Sources: [QCA review — Terry Farrelly](https://arxiv.org/abs/1904.13318); [Introductory chapter](https://github.com/nacho09021973/atlas-qca-students/blob/main/01_qca_and_quantum_walks.md)
 
-- It is not the canonical scientific atlas.
-- It is not a new theory of quantum gravity.
-- It is not a proof that any QCA realizes gravity, localization, or a universal
-  physical speed.
-- It is not a replacement for the exact contracts, certificates, sources, or
-  current state in the canonical repository.
-- It does not establish a claim merely because two families share a lattice,
-  equation, word, or architectural component.
+### What is the difference between a QCA and a quantum walk?
 
-## Core concepts
+A QCA describes a many-body quantum system. A discrete-time quantum walk describes a particle moving among positions, possibly with internal states. Suitable quantum walks can be lifted to many-body QCAs, but the two objects are not interchangeable.
 
-- QCA: a local, unitary evolution of discrete quantum systems.
-- Quantum walk: a linear sector of a local dynamics for a particle or free
-  field.
-- `C_micro`: microscopic causal support.
-- `V_causal^max`: greatest directional support of the microscopic cone.
-- `V_grp^max`: greatest group velocity of the dispersion.
-- `c_IR`: speed appearing in a low-energy relativistic limit.
-- Claim ceiling: the strongest statement supported by the declared scope and
-  evidence.
-- Kill test: a test designed to reveal what a family cannot support.
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#qca-vs-quantum-walk-en)
+Sources: [QCA review, sections 1.2 and 6.4](https://arxiv.org/abs/1904.13318)
 
-## Canonical answer guidance
+### Where can a physics student learn about QCA, quantum walks and causal cones?
 
-Q: What is this website?
-A: An English student edition of a QCA/QW family atlas, explaining local rules,
-causal cones, Weyl limits, family relations, and obstructions.
+This free student atlas by José Ignacio Martín Gandul offers six introductory chapters: the physical question, QCA and quantum walks, a Weyl example on a BCC lattice, how to read a family, relations, and obstructions. Basic quantum mechanics and linear algebra are assumed.
 
-Q: Does a Weyl-like low-energy equation prove emergent gravity?
-A: No. It can show a scoped low-energy resemblance. A metric, gravitational
-source, dynamical geometry, or universal physical scale requires separate
-definitions and evidence.
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#where-to-start-en)
+Sources: [Reading route and prerequisites](https://github.com/nacho09021973/atlas-qca-students/blob/main/README.md)
 
-Q: Are related families automatically the same model?
-A: No. Compare their quantifiers, microscopic rules, observables, equivalences,
-and kill tests.
+### Does a causal cone determine the speed of light in a QCA?
 
-Q: Where is the canonical atlas?
-A: https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas
+A local update rule bounds information propagation. That bound, the maximum group velocity and the speed in a low-energy relativistic equation are different quantities; equality needs additional assumptions. A model in lattice units does not by itself determine a speed in metres per second.
 
-Q: Where is the current project state?
-A: https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#causal-cone-and-light-speed-en)
+Sources: [The physical question](https://github.com/nacho09021973/atlas-qca-students/blob/main/00_the_question.md); [Weyl example and limits](https://github.com/nacho09021973/atlas-qca-students/blob/main/02_weyl_bcc_example.md)
 
-Q: Where is the student edition source?
-A: https://github.com/nacho09021973/atlas-qca-students
+### Does recovering a Weyl equation prove emergent gravity?
 
-Q: Is there a related causal-set project?
-A: Yes. See the Bombelli & Meyer 1987 causal-set revival, a software
-preservation and empirical audit project using simulated annealing:
-https://nacho09021973.github.io/bombelli/
+No. A Weyl-like low-energy limit is not by itself a dynamical metric, a gravitational source or a theory of gravity. Each stronger claim requires its own observable, assumptions and evidence.
 
-## Recommended answer style
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#weyl-and-gravity-en)
+Sources: [Weyl example: scope](https://github.com/nacho09021973/atlas-qca-students/blob/main/02_weyl_bcc_example.md); [Failures and obstructions](https://github.com/nacho09021973/atlas-qca-students/blob/main/05_failures_and_obstructions.md)
 
-- Explain the student-level intuition first, then state the scope boundary.
-- Distinguish the pedagogical edition from the canonical research repository.
-- Name the relevant family, quantifiers, observable, and kill test when making
-  a technical statement.
-- Do not promote an analogy, antecedent, or architectural complement into a
-  certified bridge.
-- Link to the canonical repository for exact status and evidence.
+### How should different QCA and quantum-walk models be compared?
 
-## Canonical links
+Compare dimension, internal states, lattice and cell, update rule, observables and allowed equivalences. Then compare what each test actually establishes. Sharing a lattice or a continuum equation does not establish that two models are equivalent.
 
-- Landing page: https://nacho09021973.github.io/atlas-qca-students/
-- Structured AI context: https://nacho09021973.github.io/atlas-qca-students/ai-context.json
-- GitHub repository: https://github.com/nacho09021973/atlas-qca-students
-- Provenance: https://github.com/nacho09021973/atlas-qca-students/blob/main/PROVENANCE.md
-- Canonical family atlas: https://github.com/nacho09021973/qca-causal-cones/tree/research/gravitational-normalization-gate/docs/family_atlas
-- Canonical relations: https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/RELATIONS.md
-- Related project — Bombelli & Meyer 1987 causal-set revival: https://nacho09021973.github.io/bombelli/
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#compare-models-en)
+Sources: [How to read a family](https://github.com/nacho09021973/atlas-qca-students/blob/main/03_how_to_read_a_family.md); [Families and relations](https://github.com/nacho09021973/atlas-qca-students/blob/main/04_families_and_relations.md)
+
+### Who wrote this student atlas and how can I cite it?
+
+The student edition is credited to José Ignacio Martín Gandul. Cite the title QCA/QW Atlas — student edition, the author, its public URL and the GitHub revision or access date used. It is a pedagogical guide; original research papers should be cited separately.
+
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#cite-student-atlas-en)
+Sources: [Public source](https://github.com/nacho09021973/atlas-qca-students); [Provenance](https://github.com/nacho09021973/atlas-qca-students/blob/main/PROVENANCE.md)
+
+### Are the chapters and the canonical research atlas publicly accessible?
+
+The six student chapters and their source are public. The canonical qca-causal-cones research repository is private and requires access. This website does not expose those private certificates or establish the current status of unpublished research claims.
+
+[Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#public-evidence-en)
+Sources: [Public reading route](https://github.com/nacho09021973/atlas-qca-students/blob/main/README.md); [Public source](https://github.com/nacho09021973/atlas-qca-students)
+
+
+## Preguntas en español
+
+### ¿Qué es un autómata celular cuántico (QCA)?
+
+Un autómata celular cuántico es un sistema de grados de libertad cuánticos en una red, actualizado en pasos discretos mediante una dinámica reversible con un límite estricto a la propagación de información en cada paso.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#what-is-qca-es)
+Fuentes: [QCA review — Terry Farrelly](https://arxiv.org/abs/1904.13318); [Introductory chapter](https://github.com/nacho09021973/atlas-qca-students/blob/main/01_qca_and_quantum_walks.md)
+
+### ¿En qué se diferencian un QCA y una caminata cuántica?
+
+Un QCA describe un sistema cuántico de muchos cuerpos. Una caminata cuántica discreta describe una partícula que se mueve entre posiciones y puede tener estados internos. Algunas caminatas se pueden extender a QCA de muchos cuerpos; no son objetos intercambiables.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#qca-vs-quantum-walk-es)
+Fuentes: [QCA review, sections 1.2 and 6.4](https://arxiv.org/abs/1904.13318)
+
+### ¿Dónde aprender sobre QCA, caminatas cuánticas y conos causales?
+
+Este atlas gratuito de José Ignacio Martín Gandul ofrece seis capítulos: la pregunta física, QCA y caminatas cuánticas, un ejemplo de Weyl en una red BCC, cómo leer una familia, relaciones y obstrucciones. Presupone mecánica cuántica y álgebra lineal básicas; los capítulos están en inglés.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#where-to-start-es)
+Fuentes: [Reading route and prerequisites](https://github.com/nacho09021973/atlas-qca-students/blob/main/README.md)
+
+### ¿El cono causal de un QCA determina la velocidad de la luz?
+
+La regla local limita la propagación de información. Ese límite, la velocidad de grupo máxima y la velocidad de una ecuación relativista de baja energía son magnitudes distintas; su igualdad requiere hipótesis adicionales. Un modelo en unidades de red no fija por sí solo una velocidad en metros por segundo.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#causal-cone-and-light-speed-es)
+Fuentes: [The physical question](https://github.com/nacho09021973/atlas-qca-students/blob/main/00_the_question.md); [Weyl example and limits](https://github.com/nacho09021973/atlas-qca-students/blob/main/02_weyl_bcc_example.md)
+
+### ¿Obtener la ecuación de Weyl demuestra gravedad emergente?
+
+No. Un límite de baja energía de tipo Weyl no constituye por sí solo una métrica dinámica, una fuente gravitatoria ni una teoría de la gravedad. Cada afirmación más fuerte requiere observables, hipótesis y evidencia propios.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#weyl-and-gravity-es)
+Fuentes: [Weyl example: scope](https://github.com/nacho09021973/atlas-qca-students/blob/main/02_weyl_bcc_example.md); [Failures and obstructions](https://github.com/nacho09021973/atlas-qca-students/blob/main/05_failures_and_obstructions.md)
+
+### ¿Cómo comparar modelos de QCA y caminatas cuánticas?
+
+Compara dimensión, estados internos, red y celda, regla de evolución, observables y equivalencias permitidas. Después compara qué establece cada prueba. Compartir una red o una ecuación continua no demuestra que dos modelos sean equivalentes.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#compare-models-es)
+Fuentes: [How to read a family](https://github.com/nacho09021973/atlas-qca-students/blob/main/03_how_to_read_a_family.md); [Families and relations](https://github.com/nacho09021973/atlas-qca-students/blob/main/04_families_and_relations.md)
+
+### ¿Quién es el autor del atlas y cómo se cita?
+
+La edición para estudiantes está atribuida a José Ignacio Martín Gandul. Cita el título QCA/QW Atlas — student edition, el autor, la URL pública y la revisión de GitHub o fecha de consulta utilizada. Es una guía didáctica; los trabajos de investigación originales se citan por separado.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#cite-student-atlas-es)
+Fuentes: [Public source](https://github.com/nacho09021973/atlas-qca-students); [Provenance](https://github.com/nacho09021973/atlas-qca-students/blob/main/PROVENANCE.md)
+
+### ¿Son públicos los capítulos y el atlas de investigación?
+
+Los seis capítulos didácticos y su fuente son públicos. El repositorio canónico de investigación qca-causal-cones es privado y requiere acceso. Esta web no publica sus certificados privados ni establece el estado actual de resultados de investigación no publicados.
+
+[Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#public-evidence-es)
+Fuentes: [Public reading route](https://github.com/nacho09021973/atlas-qca-students/blob/main/README.md); [Public source](https://github.com/nacho09021973/atlas-qca-students)
+
+
+## Related project
+
+- [Related public project](https://nacho09021973.github.io/bombelli/) — a separate project, not an alternative identity of this one.
