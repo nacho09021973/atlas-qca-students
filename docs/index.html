@@ -50,7 +50,7 @@
         "en",
         "es"
       ],
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-04",
       "isPartOf": {
         "@id": "https://nacho09021973.github.io/atlas-qca-students/#website"
       },
@@ -76,7 +76,7 @@
         "es"
       ],
       "isAccessibleForFree": true,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-04",
       "sameAs": [
         "https://github.com/nacho09021973/atlas-qca-students"
       ],
@@ -521,7 +521,17 @@ code,pre{background:var(--term);color:var(--termtext);font-family:inherit}code{p
 .faq-sources{font-size:.85rem}
 .faq-item,.metadata-line{overflow-wrap:anywhere}
 [id]{scroll-margin-top:1rem}
-@media(max-width:600px){.tp-body{padding:1rem}.menubar a{min-height:44px}}
+.chapter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0}
+.chapter-card{border:1px solid var(--dim);padding:1rem;background:#00008f}
+.chapter-card h3{margin-top:0;color:var(--heading)}
+.chapter-card p:last-child{margin-bottom:0}
+.flow-figure{border:1px solid var(--dim);padding:1rem;margin:1.25rem 0;background:#00006f}
+.flow-row{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:.65rem 0}
+.flow-box{border:1px solid currentColor;padding:.45rem .65rem;background:#0000a8}
+.flow-arrow{font-weight:bold}
+.flow-note{font-size:.85rem;color:var(--dim);margin:.5rem 0 0}
+.reference-list li{margin:.65rem 0;line-height:1.45}
+@media(max-width:600px){.tp-body{padding:1rem}.menubar a{min-height:44px}.flow-row{align-items:stretch}.flow-box{flex:1 1 100%}.flow-arrow{display:none}}
 
 </style>
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
@@ -529,7 +539,7 @@ code,pre{background:var(--term);color:var(--termtext);font-family:inherit}code{p
 <body>
 <nav class="menubar" aria-label="Primary navigation"><ul>
 <li><a href="#question"><span class="accesskey">F</span>ile</a></li>
-<li><a href="#learn"><span class="accesskey">A</span>tlas</a></li>
+<li><a href="#chapters"><span class="accesskey">A</span>tlas</a></li>
 <li><a href="https://github.com/nacho09021973/atlas-qca-students"><span class="accesskey">R</span>un</a></li>
 <li><a href="#relations"><span class="accesskey">C</span>onnect</a></li>
 <li><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/README.md"><span class="accesskey">D</span>ocs</a></li>
@@ -551,20 +561,104 @@ is the speed in its emergent relativistic equation
 &gt; determined by the lattice's causal cone?</code></pre><p>Do not conflate the causal support, maximum group velocity, and low-energy speed <code>c_IR</code>. In more than one dimension, anisotropy can hide behind a single number.</p>
 </div></section>
 <section class="tp-window" id="learn"><div class="tp-titlebar"><span>■ START_HERE.TXT</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
-<h2>Start here</h2><p>The recommended route moves from the basic objects to the limits of what each family supports. The chapters open on GitHub.</p><ul class="links">
-<li><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/00_the_question.md">The physical question</a></li>
-<li><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/01_qca_and_quantum_walks.md">QCA, quantum walks, and causal cones</a></li>
-<li><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/02_weyl_bcc_example.md">A Weyl example on a BCC lattice</a></li>
-<li><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/03_how_to_read_a_family.md">How to read a family</a></li>
-<li><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/04_families_and_relations.md">Families and relations</a></li>
-<li><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/05_failures_and_obstructions.md">Failures and obstructions</a></li>
-</ul></div></section>
+<h2>Start here</h2>
+<p>This page now contains the core student route directly. The six public Markdown chapters remain available for the longer version, exact wording, and revision history.</p>
+<ol class="links">
+<li><a href="#chapter-0">The physical question</a></li>
+<li><a href="#chapter-1">QCA, quantum walks, and causal cones</a></li>
+<li><a href="#chapter-2">A Weyl example on a BCC lattice</a></li>
+<li><a href="#chapter-3">How to read a family</a></li>
+<li><a href="#chapter-4">Families and relations</a></li>
+<li><a href="#chapter-5">Failures and obstructions</a></li>
+</ol></div></section>
+
+<section class="tp-window" id="chapters"><div class="tp-titlebar"><span>■ STUDENT_ATLAS.TXT</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>The student atlas: six chapters in one page</h2>
+<p>These summaries preserve the scope of the public student chapters. They are meant to make the scientific content readable here—by students, search engines, and machine readers—without requiring a jump to GitHub for every basic concept.</p>
+
+<div class="chapter-grid">
+<article class="chapter-card" id="chapter-0">
+<h3>0. The physical question</h3>
+<p>A local quantum lattice can interact only across its allowed neighbourhood in one time step, so the microscopic rule defines a causal support. The central question is whether the speed appearing in a large-scale relativistic equation is fixed by that microscopic causal structure.</p>
+<p>Four objects must be kept distinct: the one-step support <code>C_micro</code>, the largest directional causal support <code>V_causal^max</code>, the maximum group velocity <code>V_grp^max</code>, and the infrared speed <code>c_IR</code>. In more than one dimension the causal object is generally a convex body, so reducing it to one scalar speed can hide anisotropy. Equality among these quantities is a result to prove under stated assumptions, not something locality gives automatically.</p>
+<p><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/00_the_question.md">Read chapter 0 on GitHub</a></p>
+</article>
+
+<article class="chapter-card" id="chapter-1">
+<h3>1. QCA, quantum walks, and causal cones</h3>
+<p>A quantum cellular automaton (QCA) is a local, unitary evolution of discrete quantum degrees of freedom. A discrete-time quantum walk describes a particle or free-field sector moving among lattice sites, possibly with an internal “coin” space. A suitable walk can be related to a many-body QCA, but the two notions are not interchangeable.</p>
+<p>For a homogeneous rule, Fourier transformation turns the local matrices into a Bloch symbol <code>U(k)=Σ_h exp(i k·h) A_h</code>. Its eigenphases determine dispersion relations. Group velocity comes from the momentum dependence of those phases, while the continuum or infrared limit comes from expanding near a selected low-energy node. Internal components can encode spin or chirality; they are not extra spatial dimensions.</p>
+<p><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/01_qca_and_quantum_walks.md">Read chapter 1 on GitHub</a></p>
+</article>
+
+<article class="chapter-card" id="chapter-2">
+<h3>2. Weyl on a BCC lattice</h3>
+<p>Body-centred-cubic (BCC) geometry is a standard setting for three-dimensional Weyl quantum walks and QCAs. Four diagonal displacement vectors can be arranged so that their sum vanishes. Combined with a two-component internal space and suitable transition matrices, the Bloch symbol can linearize near a node to a Weyl form such as <code>U(k)=I−i(σ_x k_x+σ_y k_y+σ_z k_z)+O(|k|²)</code>.</p>
+<p>The linear term explains why relativistic Weyl dynamics can emerge at low momentum. The higher-order terms remain part of the microscopic theory and control finite-momentum departures. Recovering a Weyl equation therefore does not, by itself, produce a variable metric, gravity, identical geometric response across species, or an absolute speed in SI units.</p>
+<p><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/02_weyl_bcc_example.md">Read chapter 2 on GitHub</a></p>
+</article>
+
+<article class="chapter-card" id="chapter-3">
+<h3>3. How to read a family</h3>
+<p>Each family should be read through the same sequence: identify the source or contract; freeze the quantifiers; state the microscopic rule; define the observable; apply a kill test; record the result; and finish with a claim ceiling. Dimensions, internal-state count, lattice, cell, nodes, units, allowed equivalences, and perturbative order are part of the result rather than incidental notation.</p>
+<p>The kill test is deliberately conservative: it asks for the fastest decisive reason a proposed interpretation cannot support a stronger claim. A result that fails one contract should not be “repaired” retrospectively by changing the contract. The changed assumptions define a new case.</p>
+<p><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/03_how_to_read_a_family.md">Read chapter 3 on GitHub</a></p>
+</article>
+
+<article class="chapter-card" id="chapter-4">
+<h3>4. Families and relations</h3>
+<p>A family can be an executable rule, a successor construction, an obstruction, a classification, a bibliographic antecedent, or an architecture that still lacks a bridge. Relations between families therefore need labels. A subclass has stricter quantifiers; shared support means related lattice or Weyl structure without identical dynamics; a restricted obstruction excludes only the declared class; and an architectural complement supplies pieces that do not automatically combine into a single unitary rule.</p>
+<p>This prevents a common mistake in emergent-spacetime discussions: treating shared vocabulary—“BCC”, “Weyl”, “gauge”, “causal”—as evidence that two models establish the same physical statement.</p>
+<p><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/04_families_and_relations.md">Read chapter 4 on GitHub</a></p>
+</article>
+
+<article class="chapter-card" id="chapter-5">
+<h3>5. Failures and obstructions</h3>
+<p>Negative results are part of the atlas because they identify missing assumptions. Examples include an insufficient response rank, an undefined orientation in a hopping prescription, a no-go theorem whose quantifiers cover only a narrow factorization, an architecture without a complete unitary rule, and rotational symmetry that does not imply Lorentz symmetry.</p>
+<p>The scope matters. A no-go for one cell, one tick, or one factorization is not a no-go for every QCA. Conversely, changing the cell, grouping steps, or adding ancillas creates a different problem and does not erase the original obstruction. The scientific record should preserve both.</p>
+<p><a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/05_failures_and_obstructions.md">Read chapter 5 on GitHub</a></p>
+</article>
+</div>
+
+<h3>Three maps to keep the distinctions visible</h3>
+<figure class="flow-figure" aria-labelledby="causal-flow-caption">
+<div class="flow-row"><span class="flow-box">Local rule</span><span class="flow-arrow">→</span><span class="flow-box">C_micro</span><span class="flow-arrow">→</span><span class="flow-box">causal support</span></div>
+<div class="flow-row"><span class="flow-box">Local rule</span><span class="flow-arrow">→</span><span class="flow-box">U(k)</span><span class="flow-arrow">→</span><span class="flow-box">ω(k)</span><span class="flow-arrow">→</span><span class="flow-box">V_grp</span></div>
+<div class="flow-row"><span class="flow-box">U(k)</span><span class="flow-arrow">→</span><span class="flow-box">small k</span><span class="flow-arrow">→</span><span class="flow-box">c_IR</span></div>
+<figcaption id="causal-flow-caption"><strong>Causal pipeline.</strong> Microscopic support, group velocity and infrared speed come from related but distinct constructions. <a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/figures/causal_pipeline.mmd">Editable Mermaid source</a>.</figcaption>
+</figure>
+
+<figure class="flow-figure" aria-labelledby="reading-flow-caption">
+<div class="flow-row"><span class="flow-box">Source / contract</span><span class="flow-arrow">→</span><span class="flow-box">Quantifiers</span><span class="flow-arrow">→</span><span class="flow-box">Rule</span><span class="flow-arrow">→</span><span class="flow-box">Observable</span><span class="flow-arrow">→</span><span class="flow-box">Kill test</span><span class="flow-arrow">→</span><span class="flow-box">Result</span><span class="flow-arrow">→</span><span class="flow-box">Claim ceiling</span></div>
+<figcaption id="reading-flow-caption"><strong>Family-reading flow.</strong> The same sequence is used so that superficially similar models remain comparable. <a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/figures/family_reading_flow.mmd">Editable Mermaid source</a>.</figcaption>
+</figure>
+
+<figure class="flow-figure" aria-labelledby="relations-flow-caption">
+<div class="flow-row"><span class="flow-box">F13 general</span><span class="flow-arrow">→</span><span class="flow-box">F14 isotropy</span><span class="flow-arrow">→</span><span class="flow-box">F15 information</span><span class="flow-arrow">/</span><span class="flow-box">F16 explicit QCA</span><span class="flow-arrow">/</span><span class="flow-box">F17 symmetry</span></div>
+<div class="flow-row"><span class="flow-box">F8 constraints</span><span class="flow-arrow">—</span><span class="flow-box">F9 rank-2</span><span class="flow-arrow">—</span><span class="flow-box">F18 fractons</span></div>
+<div class="flow-row"><span class="flow-box">F19 effective gauge</span><span class="flow-arrow">—</span><span class="flow-box">F20 Lifshitz</span></div>
+<figcaption id="relations-flow-caption"><strong>Family relations.</strong> Arrows and links are architectural or classificatory relations, not declarations of physical equivalence. <a href="https://github.com/nacho09021973/atlas-qca-students/blob/main/figures/family_relations.mmd">Editable Mermaid source</a>.</figcaption>
+</figure>
+</div></section>
+
+<section class="tp-window" id="references"><div class="tp-titlebar"><span>■ REFERENCES.LST</span><span class="box-btn" aria-hidden="true">—</span></div><div class="tp-body">
+<h2>Public references for the student route</h2>
+<p>These are public starting points used by the project for QCA locality, reviews, and Weyl/BCC examples. They are references to the underlying literature, not substitutes for the scope statements in the atlas.</p>
+<ul class="reference-list">
+<li>B. Schumacher and R. F. Werner, <em>Reversible quantum cellular automata</em>, arXiv:quant-ph/0405174. <a href="https://arxiv.org/abs/quant-ph/0405174">Public preprint</a>.</li>
+<li>P. Arrighi, <em>An overview of quantum cellular automata</em>, arXiv:1904.12956. <a href="https://arxiv.org/abs/1904.12956">Public preprint</a>.</li>
+<li>T. Farrelly, <em>A review of quantum cellular automata</em>, <em>Quantum</em> <strong>4</strong>, 368 (2020), arXiv:1904.13318. <a href="https://arxiv.org/abs/1904.13318">Public preprint</a>.</li>
+<li>I. Białynicki-Birula, <em>Weyl, Dirac, and Maxwell equations on a lattice as unitary cellular automata</em>, <em>Phys. Rev. D</em> <strong>49</strong>, 6920 (1994), arXiv:hep-th/9304070. <a href="https://arxiv.org/abs/hep-th/9304070">Public preprint</a>.</li>
+<li>G. M. D'Ariano, M. Erba and P. Perinotti, <em>Isotropic quantum walks on lattices and the Weyl equation</em>, <em>Phys. Rev. A</em> <strong>96</strong>, 062101 (2017), arXiv:1708.00826. <a href="https://arxiv.org/abs/1708.00826">Public preprint</a>.</li>
+<li>A. Bisio, G. M. D'Ariano, P. Perinotti and A. Tosini, <em>Free quantum field theory from quantum cellular automata: derivation of Weyl, Dirac and Maxwell quantum cellular automata</em>, arXiv:1601.04832. <a href="https://arxiv.org/abs/1601.04832">Public preprint</a>.</li>
+</ul>
+</div></section>
 <section class="tp-window" id="faq" aria-labelledby="faq-heading">
 <div class="tp-titlebar"><span>■ FAQ.TXT</span><span class="box-btn" aria-hidden="true">—</span></div>
 <div class="tp-body"><h2 id="faq-heading">Common questions / Preguntas frecuentes</h2>
 <p>Short answers with public sources. <span lang="es">Respuestas breves con fuentes públicas.</span></p>
 <nav class="faq-nav" aria-label="Question language"><a href="#faq-en" lang="en">English</a><a href="#faq-es" lang="es">Español</a></nav>
-<p class="metadata-line">José Ignacio Martín Gandul · Updated / Actualizado: <time datetime="2026-10-02">2026-10-02</time></p>
+<p class="metadata-line">José Ignacio Martín Gandul · Updated / Actualizado: <time datetime="2026-10-04">2026-10-04</time></p>
 <section id="faq-en" lang="en" aria-labelledby="faq-en-heading"><h3 id="faq-en-heading">Questions in English</h3>
 <article class="faq-item" id="what-is-qca-en">
 <h3>What is a quantum cellular automaton (QCA)?</h3><p>A quantum cellular automaton is a system of quantum degrees of freedom on a lattice, updated in discrete time by reversible quantum dynamics with a strict bound on how far information can propagate in each step.</p>
