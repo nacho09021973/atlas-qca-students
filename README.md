@@ -4,20 +4,22 @@ This folder is an independent pedagogical edition of the QCA/QW family atlas.
 It is intended for physics students: it introduces the ideas through examples,
 diagrams, and a guided reading path before the technical details.
 
-The canonical atlas and the project's scientific status remain in the source
-repository:
+The canonical atlas (in Spanish) is copied in [`canonical_atlas/`](canonical_atlas/):
 
-- [Canonical family atlas](https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/FAMILY_BIBLE.md)
-- [Current project state](https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md)
+- [Canonical family atlas](canonical_atlas/FAMILY_BIBLE.md)
+- [Family relations](canonical_atlas/RELATIONS.md)
+
+The project's scientific status (`CURRENT_STATE.md`) stays in the private
+research repository `qca-causal-cones`.
 
 This copy does not replace those documents or extend their claims.
 
-This is the introductory version of the [canonical family atlas](https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/FAMILY_BIBLE.md).
+This is the introductory version of the [canonical family atlas](canonical_atlas/FAMILY_BIBLE.md).
 It assumes basic quantum mechanics and some linear algebra.
 
 The pedagogical edition explains intuitions and examples. The canonical atlas
 remains authoritative for status, quantifiers, sources, and claim ceilings.
-When details differ, the canonical atlas and [`CURRENT_STATE.md`](https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/state/CURRENT_STATE.md) prevail.
+When details differ, the canonical atlas and `CURRENT_STATE.md` (private research repository) prevail.
 
 ## Recommended path
 

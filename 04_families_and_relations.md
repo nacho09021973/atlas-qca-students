@@ -33,4 +33,4 @@ F8, F9, F10, and F11 contribute different pieces concerning constraints,
 gauge, links, and currents. Combining them in one sentence does not
 automatically construct a joint unitary rule.
 
-The complete map is in [`RELATIONS.md`](https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/RELATIONS.md) and [`relations.csv`](https://github.com/nacho09021973/qca-causal-cones/blob/research/gravitational-normalization-gate/docs/family_atlas/relations.csv).
+The complete map is in [`RELATIONS.md`](canonical_atlas/RELATIONS.md) and [`relations.csv`](canonical_atlas/relations.csv).

@@ -9,7 +9,7 @@ Languages: English; Spanish questions and answers.
 
 ## Scope and source access
 
-The student edition is public and introductory. The canonical research repository is private and requires access; it is not a public source for unpublished certificates or current research status.
+The student edition is public and introductory. A copy of the canonical family atlas (Spanish) is public at https://github.com/nacho09021973/atlas-qca-students/tree/main/canonical_atlas . The research repository is private and requires access; it is not a public source for unpublished certificates or current research status.
 
 ## Public reading and evidence
 
@@ -78,7 +78,7 @@ Sources: [Public source](https://github.com/nacho09021973/atlas-qca-students); [
 
 ### Are the chapters and the canonical research atlas publicly accessible?
 
-The six student chapters and their source are public. The canonical qca-causal-cones research repository is private and requires access. This website does not expose those private certificates or establish the current status of unpublished research claims.
+The six student chapters, their source and a copy of the canonical family atlas (in Spanish, folder canonical_atlas/) are public. The qca-causal-cones research repository, with its reports, certificates and current status, is private and requires access. This website does not expose those private certificates or establish the current status of unpublished research claims.
 
 [Answer on the website](https://nacho09021973.github.io/atlas-qca-students/#public-evidence-en)
 Sources: [Public reading route](https://github.com/nacho09021973/atlas-qca-students/blob/main/README.md); [Public source](https://github.com/nacho09021973/atlas-qca-students)
@@ -137,7 +137,7 @@ Fuentes: [Public source](https://github.com/nacho09021973/atlas-qca-students); [
 
 ### ¿Son públicos los capítulos y el atlas de investigación?
 
-Los seis capítulos didácticos y su fuente son públicos. El repositorio canónico de investigación qca-causal-cones es privado y requiere acceso. Esta web no publica sus certificados privados ni establece el estado actual de resultados de investigación no publicados.
+Los seis capítulos didácticos, su fuente y una copia del atlas canónico de familias (carpeta canonical_atlas/) son públicos. El repositorio de investigación qca-causal-cones, con sus informes, certificados y estado actual, es privado y requiere acceso. Esta web no publica sus certificados privados ni establece el estado actual de resultados de investigación no publicados.
 
 [Respuesta en la web](https://nacho09021973.github.io/atlas-qca-students/#public-evidence-es)
 Fuentes: [Public reading route](https://github.com/nacho09021973/atlas-qca-students/blob/main/README.md); [Public source](https://github.com/nacho09021973/atlas-qca-students)
